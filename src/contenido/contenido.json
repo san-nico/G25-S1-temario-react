@@ -1,0 +1,213 @@
+{
+    "metadata": {
+        "titulo": "Curso frontend G26-S1",
+        "url": "https://www.softwarelibrechile.cl",
+        "fecha": "27-06-2026"
+    },
+    "clases": [
+        {
+            "id": "1",
+            "titulo": "Fundamentos",
+            "titulo_old": "HTML5 Semántico y Fundamentos de CSS",
+            "fecha": "18-04-2026",
+            "modalidad": "presencial",
+            "diapositiva": "https://docs.google.com/presentation/d/1Q63pd1wftlnprjuGJJPEhjCHfLd-lS4FGtzNpGB3Sa8/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-01-Tarea",
+            "bloques": [],
+            "ayudantia": "https://drive.google.com/file/d/1cdu6Yjl9cbFR3NJKLJRZ68OvsAItA8N4/view?usp=sharing",
+            "icono": "html5.png"
+        },
+        {
+            "id": "2",
+            "titulo": "Selectores, Especificidad y Variables CSS",
+            "titulo_old": "Selectores, Especificidad y Variables CSS",
+            "fecha": "25-04-2026",
+            "modalidad": "presencial",
+            "diapositiva": "https://docs.google.com/presentation/d/1gJDVBcDQLiICs71V5t55iv4oB5KmE0e-OZWei54Rh-s/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-02-Tarea",
+            "bloques": [],
+            "ayudantia": "https://drive.google.com/file/d/1SVilJjSIcZFUCHJBfTrIUIU4dTZ1qV4y/view?usp=sharing",
+            "icono": "css.png"
+        },
+        {
+            "id": "3",
+            "titulo": "Layouts Pro: Flexbox y CSS Grid",
+            "titulo_old": "Layouts Pro: Flexbox y CSS Grid",
+            "fecha": "02-05-2026",
+            "modalidad": "virtual",
+            "diapositiva": "https://docs.google.com/presentation/d/19NFYeLuWMAbsdasQUCfslDS_DH2-2q2YUddii-bNiNE/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-03-Tarea",
+            "bloques": [
+                "https://drive.google.com/file/d/1iIsgjK6QhsSviorgP_h4G5TNzFhH958F/view?usp=sharing",
+                "https://drive.google.com/file/d/1gkzI_-fTD30BVMB4JP5m-9ybEoKb-xsS/view?usp=sharing"
+            ],
+            "ayudantia": "",
+            "icono": "flex.png"
+        },
+        {
+            "id": "4",
+            "titulo": "Introducción a Javascript",
+            "titulo_old": "Responsive Design y Metodología BEM",
+            "fecha": "09-05-2026",
+            "modalidad": "presencial",
+            "diapositiva": "https://docs.google.com/presentation/d/1a2J2-eYHNcrR9WT_42iir_BieusdSzUXiXfnsrLLTew/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-04-Tarea",
+            "bloques": [],
+            "ayudantia": "https://drive.google.com/file/d/1T4PuGRgGqKghnGinG5ScweBNLKvHnt2z/view?usp=sharing",
+            "icono": "bem.png"
+        },
+        {
+            "id": "5",
+            "titulo": "Primeros pasos con Javascript - Parte 01",
+            "titulo_old": "JS Fundamentos I: Lógica y Scope",
+            "fecha": "23-05-2026",
+            "modalidad": "virtual",
+            "diapositiva": "https://docs.google.com/presentation/d/1n-Bu_ctEMCZuRhDNiH-MrobC895PR2T2D_Qf4_5gjG8/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-05-Tarea",
+            "bloques": [
+                "https://drive.google.com/file/d/1RQdx16o6o_G4ykGOaz7ThfvHTRlsmI7q/view?usp=sharing",
+                "https://drive.google.com/file/d/1GJrdESRPCpTeFRywVTvt4XyyAOyBFX6Q/view?usp=sharing"
+            ],
+            "ayudantia": "",
+            "icono": "js1.png"
+        },
+        {
+            "id": "6",
+            "titulo": "Fundamentos II: Funciones y Arreglos",
+            "titulo_old": "JS Fundamentos II: Funciones y Arreglos",
+            "fecha": "30-05-2026",
+            "modalidad": "virtual",
+            "diapositiva": "https://docs.google.com/presentation/d/1pUGps9tiABDDyNsYDyu1r8QsFYc4jfpdgjuAeyEaXg8/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-06-Tarea",
+            "bloques": [],
+            "ayudantia": "https://drive.google.com/file/d/1w_QV4QKSZhJ5BBqQ91np-Enk3Hziyme2/view?usp=sharing",
+            "icono": "js2.png"
+        },
+        {
+            "id": "7",
+            "titulo": "Funciones, API’S, Manejo de Errores",
+            "titulo_old": "Manipulación del DOM y Eventos",
+            "fecha": "06-06-2026",
+            "modalidad": "presencial",
+            "diapositiva": "https://docs.google.com/presentation/d/1sVF7WCLJ82DDA452L88zx7OOCynlXSIyCGrPL6t-2ds/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-07-Tarea",
+            "bloques": [],
+            "ayudantia": "https://drive.google.com/file/d/1N47LcVnv-ryhEF7hB2HLoXRjU2gTi0Ea/view?usp=sharing",
+            "icono": "js3.png"
+        },
+        {
+            "id": "8",
+            "titulo": "Programación JS - Herencias",
+            "titulo_old": "Asincronía: Promesas y Fetch API",
+            "fecha": "13-06-2026",
+            "modalidad": "virtual",
+            "diapositiva": "https://docs.google.com/presentation/d/1tOi0HXtwHzr1vaK8TRMphgIwiIydl92vECzNBxD9cXc/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-08-Tarea",
+            "bloques": [
+                "https://drive.google.com/file/d/1CiM6mL6Uu7FvsU8zDXjG1hNNm51aEovZ/view",
+                "https://drive.google.com/file/d/1DY9qtQvErPYhEkkgFrjB_J1zTaQkkki0/view"
+            ],
+            "ayudantia": "",
+            "icono": "fetch.png"
+        },
+        {
+            "id": "9",
+            "titulo": "React JS - Introducción",
+            "titulo_old": "Introducción a React.js y JSX",
+            "fecha": "27-06-2026",
+            "modalidad": "virtual",
+            "diapositiva": "https://docs.google.com/presentation/d/13SoYaMsURn2bxaiGWIZZJRs6WB8sbfd_2iDfKLWz8TM/edit?usp=sharing",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-09-Tarea",
+            "bloques": [
+                "https://drive.google.com/file/d/1Stk7vtgO_m781LvCn0eV8Lbpb0fqh5x-/view",
+                "https://drive.google.com/file/d/13Yl9nB06324fLVC1YQTjGDE8TBvqShe/view"
+            ],
+            "ayudantia": "",
+            "icono": "react.png"
+        },
+        {
+            "id": "10",
+            "titulo": "",
+            "titulo_old": "Manejo de Estado: useState",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-10-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "usestate.png"
+        },
+        {
+            "id": "11",
+            "titulo": "",
+            "titulo_old": "Efectos y Ciclo de Vida: useEffect",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-11-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "useeffect.png"
+        },
+        {
+            "id": "12",
+            "titulo": "",
+            "titulo_old": "Navegación con React Router",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-12-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "router.png"
+        },
+        {
+            "id": "13",
+            "titulo": "",
+            "titulo_old": "Next.js: App Router y Arquitectura",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-13-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "next.png"
+        },
+        {
+            "id": "14",
+            "titulo": "",
+            "titulo_old": "Optimización, SEO y Deployment",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-14-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "seo.png"
+        },
+        {
+            "id": "15",
+            "titulo": "",
+            "titulo_old": "Integración de Datos y Testing",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-15-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "testing.png"
+        },
+        {
+            "id": "16",
+            "titulo": "",
+            "titulo_old": "DEMO DAY: Presentación de Proyectos",
+            "fecha": "",
+            "modalidad": "",
+            "diapositiva": "",
+            "formulario": "https://softwarelibrechile.cl/G25-S1-16-Tarea",
+            "bloques": [],
+            "ayudantia": "",
+            "icono": "demoday.png"
+        }
+    ]
+}
