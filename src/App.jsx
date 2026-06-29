@@ -3,10 +3,10 @@ import "./App.css";
 
 import contenido from "./contenido/contenido.json";
 import Card from "./components/Card/Card";
-import CardNull from "./CardNull";
+import CardNull from "./components/CardNull/CardNull";
 import procesarClase from "./utils/procesarClases";
 
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 /* ========== LAYOUT PRINCIPAL ========== */
 const AppWrapper = styled.div`

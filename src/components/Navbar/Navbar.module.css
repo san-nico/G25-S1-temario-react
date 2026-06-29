@@ -1,0 +1,36 @@
+.navbar {
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  background: rgba(15, 23, 42, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  align-items: center;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.link {
+}
+
+.date {
+}
+
+.image {
+}
+
+.content {
+  display: grid;
+  gap: 0.5rem;
+  align-items: left;
+
+  align-content: center;
+}
