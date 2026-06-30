@@ -1,10 +1,11 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 import "./App.css";
 
 import contenido from "./contenido/contenido.json";
 import Card from "./components/Card/Card";
 import CardNull from "./components/CardNull/CardNull";
-import procesarClase from "./utils/procesarClases";
+import * as Clase from "./utils/clase";
 
 import Navbar from "./components/Navbar/Navbar";
 
@@ -19,18 +20,16 @@ const AppWrapper = styled.div`
   );
   color: white;
 `;
+
 /* ========== GRID ========== */
 const CardHolder = styled.section`
   display: grid;
   gap: 1.25rem;
-
   grid-template-columns: repeat(auto-fit, minmax(min-content, 21rem));
-
   align-items: start;
   width: min(100%, 100rem);
   justify-self: center;
   margin: auto;
-
   justify-content: center;
 `;
 
@@ -42,6 +41,10 @@ const Main = styled.main`
 `;
 
 function App() {
+  useEffect(() => {
+    document.title = contenido.metadata.titulo;
+  }, []);
+
   return (
     <AppWrapper>
       <Navbar metadata={contenido.metadata} />
@@ -49,10 +52,10 @@ function App() {
       <Main>
         <CardHolder>
           {contenido.clases.map((item, index) =>
-            item.vigente ? (
-              <Card key={item.id ?? index} card={procesarClase(item)} />
+            Clase.esVigente(item) ? (
+              <Card key={item.id ?? index} card={item} />
             ) : (
-              <CardNull key={item.id ?? index} card={procesarClase(item)} />
+              <CardNull key={item.id ?? index} card={item} />
             ),
           )}
         </CardHolder>
