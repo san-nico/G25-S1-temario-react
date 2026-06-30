@@ -20,17 +20,14 @@ Error generating stack: `+e.message+`
 `,ir=qn.section`
   display: grid;
   gap: 1.25rem;
-
   grid-template-columns: repeat(auto-fit, minmax(min-content, 21rem));
-
   align-items: start;
   width: min(100%, 100rem);
   justify-self: center;
   margin: auto;
-
   justify-content: center;
 `,ar=qn.main`
   padding: 2rem 1.5rem;
   display: grid;
   gap: 2rem;
-`;function or(){return(0,j.jsxs)(rr,{children:[(0,j.jsx)(nr,{metadata:Jn.metadata}),(0,j.jsx)(ar,{children:(0,j.jsx)(ir,{children:Jn.clases.map((e,t)=>$n(e)?(0,j.jsx)(Xn,{card:e},e.id??t):(0,j.jsx)(Qn,{card:e},e.id??t))})})]})}(0,v.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(_.StrictMode,{children:(0,j.jsx)(or,{})}));
+`;function or(){return(0,_.useEffect)(()=>{document.title=Jn.metadata.titulo},[]),(0,j.jsxs)(rr,{children:[(0,j.jsx)(nr,{metadata:Jn.metadata}),(0,j.jsx)(ar,{children:(0,j.jsx)(ir,{children:Jn.clases.map((e,t)=>$n(e)?(0,j.jsx)(Xn,{card:e},e.id??t):(0,j.jsx)(Qn,{card:e},e.id??t))})})]})}(0,v.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(_.StrictMode,{children:(0,j.jsx)(or,{})}));
